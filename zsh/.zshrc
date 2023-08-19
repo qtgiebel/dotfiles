@@ -106,7 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# alias vi="nvim" 
+
 vi () {
     if [ -z "$1" ]; then
         nvim .
@@ -114,6 +114,8 @@ vi () {
         nvim $1
     fi
 }
+
+alias gsv="git status -vv"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
