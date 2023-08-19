@@ -1,7 +1,7 @@
 [submodule "nvim"]
 	path = vim/.config/nvim
 	url = https://github.com/qtgiebel/nvim-config
-[submodule "dracula"]
+[submodule "tmux"]
 	path = tmux/.tmux/plugins/tmux
 	url = https://github.com/dracula/tmux
 [submodule "tmux-sensible"]
